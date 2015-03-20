@@ -42,9 +42,9 @@ var manifest = [
     { id: "startscreen", src: "assets/images/instructionsnew.png" },
     { id: "playButton", src: "assets/images/startbutton.png" },
     { id: "tryAgainButton", src: "assets/images/resetnew.png" },
-    { id: "engine", src: "assets/audio/engine.ogg" },
-    { id: "yay", src: "assets/audio/yay.ogg" },
-    { id: "thunder", src: "assets/audio/thunder.ogg" }
+    { id: "engine", src: "assets/audio/ocean.mp3" },
+    { id: "yay", src: "assets/audio/huba.wav" },
+    { id: "thunder", src: "assets/audio/heart.wav" }
 ];
 
 function Preload() {
@@ -112,4 +112,3 @@ function changeState(state) {
             break;
     }
 }
-//# sourceMappingURL=game.js.map
